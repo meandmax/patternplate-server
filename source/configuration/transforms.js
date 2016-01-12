@@ -13,7 +13,9 @@ export default {
 	'react-to-markup': {
 		'inFormat': 'jsx',
 		'outFormat': 'html',
-		'opts': {}
+		'opts': {
+			'static': true
+		}
 	},
 	'babel': {
 		'inFormat': 'js',

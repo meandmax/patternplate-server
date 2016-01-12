@@ -22,11 +22,11 @@ export default {
 		},
 		'html': {
 			'name': 'Markup',
-			'transforms': ['react', 'react-to-markup']
+			'transforms': ['react', 'babel', 'react-to-markup']
 		},
 		'jsx': {
 			'name': 'Markup',
-			'transforms': ['react', 'react-to-markup']
+			'transforms': ['react', 'babel', 'react-to-markup']
 		},
 		'md': {
 			'name': 'Documentation',
